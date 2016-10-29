@@ -3,19 +3,43 @@
   <head>
       <title>My First Website</title>
       <meta charset="utf-8" />
-      <link rel="stylesheet" href="css/style.css">
+      <style>
+        #emphasis{
+          color: red;
+        }
+
+        .class-emphasis{
+          background: green;
+        }
+
+        li:nth-child(3){
+          color : orange;
+        }
+        ul:first-of-type li:ntn-child(2){
+          color: orange;
+        }
+      </style>
   </head>
   <body>
-    <div>
-      <h1>My Page</h1>
-      <p><a href="about/about.html">about page.</a></p>
+    <ul>
+      <li class="class-emphasis" id="emphasis">This</li>
+      <li >is</li>
+      <li >my</li>
+      <li id="emphasis">list</li>
+    </ul>
 
-      <img src="img/logo.png" alt="u4bi logo"/>
+    <ul>
+      <li class="class-emphasis" id="emphasis">This</li>
+      <li class="class-emphasis" >is</li>
+      <li >my</li>
+      <li id="emphasis">list</li>
+    </ul>
 
-      <div>
-        <h2>new Section</h2>
-        
-      </div>
-    </div>
+    <ul>
+      <li class="class-emphasis" id="emphasis">This</li>
+      <li class="class-emphasis" >is</li>
+      <li >my</li>
+      <li id="emphasis">list</li>
+    </ul>        
   </body>
 </html>
