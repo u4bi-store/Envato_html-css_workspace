@@ -6,11 +6,34 @@
       <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Contect</a></li>
-    </ul>
+    <form action="contact.php" method="get">
+      <ul>
+        <li>
+          <label for="name">Enter Your Name: </label>
+          <input id="name" name="name" />
+        </li>
+
+        <li>
+          <label for="comments">You comments</label>
+          <textarea id="comments" name="comments" rows="20" cols="30">dadadfasdf</textarea>
+        </li>
+
+        <li>
+          <label for="css">Do You Like CCS?</label>
+          <input tpye="checkbox" name="css" id="css"/>
+        </li>
+
+        <li>
+          <label for=""> Favorite Language?</label>
+          <input type="radio"/> CSS
+          <input type="radio"/> HTML
+          <input type="radio"/> JavaScript
+          <input type="radio"/> Ruby
+        </li>
+
+        <li><input type="submit" value="Go!"/></li>
+
+      </ul>
+    </form>
   </body>
 </html>
