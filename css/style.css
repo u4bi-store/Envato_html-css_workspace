@@ -2,6 +2,72 @@ body{
 
 }
 
+.grid_3 { margin-left: 60px; }
+
+/*
+**********
+* =miscellaneous
+**********
+*/
+
+.container_24 {
+  margin-top: 10px;
+}
+blockquote{
+  position: relative;
+}
+blockquote, blockquote p {
+  font-size: 15px;
+  line-height: 20px;
+  font-style: italic;
+  color: #0e0e0e;
+}
+
+p{
+  font-size: 13px;
+  line-height: 20px;
+  color: #353535;
+}
+
+h1, h2 {
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-size: 26px;
+  text-transform: lowercase;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 24px;
+  margin-bottom: 15px;
+  line-height: 1em;
+}
+a {
+  color: #7e7e7e;
+  text-decoration: none;
+}
+a:hover, .selected {
+  color: black;
+}
+
+.button {
+  background: #242324;
+  padding: 6px;
+}
+
+.button:hover{
+  color: white;
+}
+
+li {
+  margin-left: 24px;
+}
+
+/*
+**********
+* =header
+**********
+*/
+
 header{
   overflow: hidden;
 }
@@ -11,7 +77,7 @@ header h1 {
   text-indent: -9999px;
   width: 200px;
   height: 50px;
-  margin: 10px 10px 20px;
+  margin: 10px 10px 22px;
   float: left;
 }
 
@@ -22,9 +88,14 @@ header h1 {
 */
 nav {
   float: right;
+  padding-top: 12px;
 }
 nav li {
   display: inline;
+}
+
+nav a {
+  text-transform: lowercase;
 }
 
 /*
@@ -32,12 +103,17 @@ nav li {
 * =banner
 **********
 */
-.banner{
+.banner {
   background: url("../img/seoul_1.jpg") no-repeat;
   width: 695px;
   height: 231px;
+  clear: both;
 }
 
+.banner h2 {
+  color: white;
+  font-size: 28px;
+}
 .callout {
   background: black;
   height: 231px;
@@ -50,6 +126,29 @@ nav li {
 */
 .main{
   margin-top: 20px;
+}
+
+.main blockquote p{
+  padding-left: 30px;
+}
+.main blockquote p:before,
+.main blockquote p:after{
+  font-size: 40px;
+  color: #bfbfbf;
+  font-style: italic;
+}
+.main blockquote p:first-child:before{
+  content:'“';
+  position: absolute;
+  top: 7px;
+  left: 0;
+}
+.main blockquote p:last-child:after{
+  content:'”';
+  float: right;
+  position: absolute;
+  bottom: -7px;
+  right: 0;
 }
 
 /*
