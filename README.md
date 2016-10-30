@@ -18,4 +18,6 @@ finish
 work.html 1
 =============
 ![Alt text](./img/README/view_5.png)
-```
+2
+=============
+![Alt text](./img/README/view_6.png)
