@@ -1,15 +1,21 @@
-body{ background: #666;}
-h1 {
-  font-size: 120px;
-  text-align: center;
-  margin-top: 50px;
-  font-family: 'Exo', sans-serif;
-  letter-spacing: -5px;
-  color: black;
-  text-transform: lowercase;
-  text-shadow: 
-    5px -1px 0 white,
-    6px -2px 0 red;
-  font-variant: small-caps;
+body{
+  margin: 0;
+}
 
+.wrap{
+  width: 800px;
+  height: 1000px;
+  position: relative;
+  margin: auto;
+  background: #e3e3e3;
+}
+
+.box{
+  width: 70px;
+  height: 70px;
+
+  margin: auto;
+  background: red;
+  position: absolute;
+  left: 0px; top: 30px;
 }
