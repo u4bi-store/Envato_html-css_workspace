@@ -1,5 +1,5 @@
 body{
-
+  font-family: sans-serif;
 }
 
 .grid_3 { margin-left: 60px; }
@@ -52,9 +52,13 @@ a:hover, .selected {
 .button {
   background: #242324;
   padding: 6px;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 .button:hover{
+  background: black;
   color: white;
 }
 
@@ -108,11 +112,18 @@ nav a {
   width: 695px;
   height: 231px;
   clear: both;
+  position: relative;
 }
 
 .banner h2 {
   color: white;
   font-size: 28px;
+  font-weight: normal;
+  position: absolute;
+  bottom: -10px;
+  padding: 0 8px;
+  left: 8px;
+  background: rgba(0,0,0,.5);
 }
 .callout {
   background: black;
@@ -158,4 +169,7 @@ nav a {
 */
 footer{
   clear: both;
+  border-top : 1px solid #d1d1d1;
+  padding-top: 18px;
+  margin-top : 30px;
 }
