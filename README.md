@@ -24,3 +24,4 @@ work.html 1
 finish
 =============
 ![Alt text](./img/README/view_7.png)
+![Alt text](./img/README/view__4.png)
