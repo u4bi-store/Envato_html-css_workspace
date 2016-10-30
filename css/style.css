@@ -1,3 +1,62 @@
 body{
-  
+
+}
+
+header{
+  overflow: hidden;
+}
+
+header h1 {
+  background: url("../img/logo.jpg") no-repeat;
+  text-indent: -9999px;
+  width: 200px;
+  height: 50px;
+  margin: 10px 10px 20px;
+  float: left;
+}
+
+/*
+**********
+* =nav
+**********
+*/
+nav {
+  float: right;
+}
+nav li {
+  display: inline;
+}
+
+/*
+**********
+* =banner
+**********
+*/
+.banner{
+  background: url("../img/seoul_1.jpg") no-repeat;
+  width: 695px;
+  height: 231px;
+}
+
+.callout {
+  background: black;
+  height: 231px;
+}
+
+/*
+**********
+* =main
+**********
+*/
+.main{
+  margin-top: 20px;
+}
+
+/*
+**********
+* =footer
+**********
+*/
+footer{
+  clear: both;
 }
