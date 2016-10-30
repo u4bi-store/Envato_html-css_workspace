@@ -14,7 +14,7 @@ index.html 1
 ![Alt text](./img/README/view_3.png)
 finish
 =============
-![Alt text](./img/README/view__4.png)
+![Alt text](./img/README/view_4.png)
 work.html 1
 =============
 ![Alt text](./img/README/view_5.png)
