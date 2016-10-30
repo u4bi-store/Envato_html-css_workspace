@@ -21,3 +21,6 @@ work.html 1
 2
 =============
 ![Alt text](./img/README/view_6.png)
+finish
+=============
+![Alt text](./img/README/view_7.png)
